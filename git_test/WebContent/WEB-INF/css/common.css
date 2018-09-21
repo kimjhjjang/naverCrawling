@@ -1,0 +1,102 @@
+@charset "utf-8";
+body { 
+margin:0px; padding:0px; 
+font-family:'나눔고딕',NanumGothic,ng,'돋움',dotum,Helvetica,sans-serif; font-size: 13px; 
+}
+@font-face {
+font-family:ng;
+src:url(/static/font/NanumGothic.eot); /* IE9 Compat Modes */
+src:url(/static/font/NanumGothic.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+	url(/static/font/NanumGothic.woff) format('woff'), /* Modern Browsers */
+	url(/static/font/NanumGothic.ttf)  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+
+h1, h2, h3, h4, h5, h6, div, p, blockquote, pre, address, dt, dd, table, caption, th, td, form, fieldset, legend, ul{margin:0; padding:0;}
+
+input, select, textarea { color:#3d3d3d; font-size:14px; text-indent: 10px; }
+textarea { resize: none;}
+ 
+.textLeft { text-align:left; }
+.textCenter { text-align:center; }
+.textRight { text-align:right; }
+.margin-zero { margin:0px !important; }
+.padding-zero { padding:0px !important; }
+
+.modal { display:none; }
+
+/* 링크 버트 스타일 */
+a.button { height:22px; font-size:13px; margin-bottom: 1px; }
+a.button span { padding: 3px 6px !important; }
+.ui-button-text { font-family:'나눔고딕',NanumGothic,ng,'돋움',dotum,Helvetica,sans-serif !important; }
+
+/* display */
+.displayBlock {display:block;}
+.displayNone {display:none;}
+
+
+/* circle */
+.circle {
+	background-color:#fff;
+	border:3px #a72525 solid;
+	width:100px;
+	height:100px;
+	-webkit-border-radius:75px;
+	-moz-border-radius:75px;
+}
+
+
+/* disable text selection highlighting */
+.unselectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+
+.w100 { width:100px !important; }
+.w200 { width:200px !important; }
+.w300 { width:300px !important; }
+.w400 { width:400px !important; }
+.w500 { width:500px !important; }
+
+/* notification */
+.noti-text { visibility: hidden; color: #fa617b; font-size:12px; }
+
+
+/* button loadng icon */
+.loadingIcon { width: 20px; position: absolute; top: 12px; }
+
+
+/* text-overflow 줄임표시 */
+.textReduce{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: normal !important;
+}
+
+/*placeholder 텍스트*/
+.placeholder{
+	font-family:'나눔고딕',NanumGothic,ng,'돋움',dotum,Helvetica,sans-serif !important;
+	font-size: 12px !important;
+	color: #999 !important;
+}
+.pwPlaceholder{
+	font-family:'나눔고딕',NanumGothic,ng,'돋움',dotum,Helvetica,sans-serif !important;
+	font-size: 12px !important;
+	color: #999 !important;
+	position:absolute;
+	top: 0px;
+	left:0px;
+	z-index:1;
+}
+

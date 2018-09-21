@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+body { background:#ffffff repeat-x left top;margin:0px; padding:0px; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif !important; font-size:13px; line-height:1; }
+
+/**********index.jsp**********/
+.index .navbar-inner .container { width:100%; }
+.index .navbar-inner .container .brand { font-size:25px; font-weight: 200; padding: 15px 20px 15px 70px; }
+.index .navbar-inner .container .nav-collapse .nav li a { color:#777777; font-size:16px; text-shadow: 0 1px 0 #ffffff; padding: 18px 15px 18px 15px; }
+/**********index.jsp**********/
+
+.middleHr { margin-bottom: 3px; }
+.wrap { width:100%; position:relative;}
+
+/**********header**********/
+.header { margin-bottom:10px; height:120px; }
+.header .in-header .header-wrap { padding:10px 10px 5px 20px; }
+.header .in-header .header-wrap .logo { position:relative; top:2px; float:left; width:50%; color:#757272; font-size:22px; font-style:italic; }
+.header .in-header .header-wrap .logo a { color:#757272; text-decoration:none; }
+.header .in-header .header-wrap .leftBtn { position:relative; float:left; width:50%; text-align:right; }
+/**********header**********/
+
+
+/**********middle**********/
+.body { margin: 0px 10px 15px 5px; }
+
+/*left*/
+.body .left { position:absolute; width:240px; float:left; padding: 0px; }
+.body .left .accordion .accDiv ul { padding: 10px 0px 0px 15px; }
+.body .left .accordion .accDiv ul li { padding: 3px 0px 3px 0px; }
+
+/*content*/
+.body .content-wrap { position:relative; top:2px; left:130px; width:79%; background:#ffffff repeat-x left top; border-radius:6px; }
+/*.body .content-wrap .content { min-height:500px; padding-bottom:10px; }*/
+/*.body .content-wrap { height:100%; padding:5px; }*/
+.body .content-wrap .pageTitle { margin:0px 0px 10px 10px; height:31px; padding: 0px 10px 5px 10px; max-width:700px; border-bottom:3px solid #4e4545; }
+.body .content-wrap .pageTitle .titleText { position:relative; width:70%; line-height:35px; height:31px; float:left; font-size:18px; font-weight:bold; color:#555555; }
+.body .content-wrap .pageTitle .titleText a { color:#555555; text-decoration:none; }
+.body .content-wrap .pageTitle .titleButton { position:relative; width:30%; text-align:right;  height:31px; float:left; }
+
+/*basicList*/
+.body .content-wrap .dataList { padding: 20px 10px 0px 20px; max-width:700px; }
+.body .content-wrap .dataList .search {}
+.body .content-wrap .dataList .search .searchCondition { padding:7px 3px 6px 3px; border:1px solid #e3e3e3; }
+.body .content-wrap .dataList .search .searchCondition table { width: 100%; table-layout: fixed; }
+.body .content-wrap .dataList .search .searchCondition table th { color:#555555; padding: 3px 0 3px 0; }
+.body .content-wrap .dataList .search .searchCondition table td { color:#555555; padding: 3px 0 3px 0; }
+.body .content-wrap .dataList .search .searchCondition table td input { margin-bottom:0px; }
+.body .content-wrap .dataList .search .searchCondition table td input.text { padding:4px 0 5px 5px; }
+.body .content-wrap .dataList .search .searchBtn { text-align:right; margin: 10px 0px 10px 0px; }
+.body .content-wrap .dataList .list {}
+.body .content-wrap .dataList .list .title { padding-bottom: 5px; font-size:14px; font-weight:bold; color:#555555; border-bottom:3px solid #dbbea2; }
+.body .content-wrap .dataList .list .data { margin-bottom:10px; }
+.body .content-wrap .dataList .list .data table { width: 100%; table-layout: fixed; border-spacing:0; border-collapse: collapse;  }
+.body .content-wrap .dataList .list .data table th { border: 1px solid #dbbea2; text-align:center; height:30px; color:#4c3000; background: #ffffff url('../images/demo/bg_table_th.png') 50% 50% repeat-x; }
+.body .content-wrap .dataList .list .data table td { border: 1px solid #dbbea2; text-align:center; height:30px; color:#4c3000; }
+.body .content-wrap .dataList .list .data table td.subject { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; word-wrap: normal !important; text-align:left; padding:3px 5px 3px 5px; }
+.body .content-wrap .dataList .list .data table td.subject a { color:#4c3000; text-decoration:none; }
+.body .content-wrap .dataList .list .data table td.subject a:hover { text-decoration:underline; }
+
+/*paging*/
+.pagingWrap { position:relative; width:100%; margin:0px auto; }
+.pagingWrap .paging { text-align:center; }
+.pagingWrap .paging a {  height:22px; text-align:center; }
+.pagingWrap .paging .on { border: 1px solid #59b4d4; color: #ffffff; font-weight: bold; background: #0078a3 50% 50% repeat-x; }
+.pagingWrap .pagingInfo { position:absolute; float:right; top:8px; right:0px; font-size:14px; font-weight:bold; color:#666666; }
+
+/*basicView*/
+.body .content-wrap .dataView { padding: 20px 10px 0px 20px; max-width:700px; }
+.body .content-wrap .dataView .viewText table { width:100%; border: 1px solid #dbbea2; text-align:left; color:#4c3000; }
+.body .content-wrap .dataView .viewText table th { padding:20px 0px 20px 20px; vertical-align:top; }
+.body .content-wrap .dataView .viewText table td { padding:20px 0px 20px 20px; }
+.body .content-wrap .dataView .viewText table td div.divContent { width:460px; min-height:200px; max-height:300px; padding: 19px; background-color: #f5f5f5; border: 1px solid #e3e3e3; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); text-overflow: ellipsis; overflow-x: hidden; overflow-y: auto ; word-wrap: break-word !important; }
+.body .content-wrap .dataView .viewBtn { width:100%; text-align:center; color:#4c3000; margin:20px; }
+.body .content-wrap .dataView .viewText .attachFile { width:500px; padding: 0px; }
+.body .content-wrap .dataView .viewText .attachFile .attachBtn { float:right; margin:11px 0px 2px 0px; }
+.body .content-wrap .dataView .viewText .attachFile .noScrollArea { }
+.body .content-wrap .dataView .viewText .attachFile .scrollArea { overflow-y:auto; max-height:206px; border-bottom:1px solid #dbbea2; border-right:1px solid #dbbea2; }
+.body .content-wrap .dataView .viewText .attachFile table {}
+.body .content-wrap .dataView .viewText .attachFile table.title { margin-bottom:0px; border-bottom:0px; }
+.body .content-wrap .dataView .viewText .attachFile table.data { margin-bottom:0px; border-right:0px; border-bottom:0px; }
+.body .content-wrap .dataView .viewText .attachFile table input { margin:0px; }
+.body .content-wrap .dataView .viewText .attachFile table th { height:20px; padding: 5px 0px 5px 20px; background-color: #f5f5f5; }
+.body .content-wrap .dataView .viewText .attachFile table td { height:20px; padding: 5px 0px 5px 20px; }
+.body .content-wrap .dataView .viewText .attachFile table td.noFile { padding: 5px 0px 5px 20px; background-color: #ffffff; }
+.body .content-wrap .dataView .viewText .attachFile table td a { text-decoration:none; }
+.body .content-wrap .dataView .viewText .attachFile table td a:hover { color:#005580; text-decoration:underline; }
+.body .content-wrap .dataView .viewText .attachFile table th.name { text-align:left; width:auto; padding: 5px 0px 5px 20px !important; }
+.body .content-wrap .dataView .viewText .attachFile table td.name { text-align:left; width:auto; padding: 10px 0px 5px 20px !important; }
+.body .content-wrap .dataView .viewText .attachFile table th.size { text-align:center; width:180px; }
+.body .content-wrap .dataView .viewText .attachFile table td.size { text-align:right; width:180px; padding: 10px 40px 5px 0px; }
+
+/*basicSave*/
+.body .content-wrap .dataSave { padding: 20px 10px 0px 20px; max-width:700px; }
+.body .content-wrap .dataSave .viewText table { width:100%; border: 1px solid #dbbea2; text-align:left; color:#4c3000; }
+.body .content-wrap .dataSave .viewText table th { padding:33px 0px 20px 20px; vertical-align:top; }
+.body .content-wrap .dataSave .viewText table td { padding:20px 0px 20px 20px; }
+.body .content-wrap .dataSave .viewText table td input.text { width:475px; }
+.body .content-wrap .dataSave .viewText table td.text { padding:33px 0px 20px 20px; }
+.body .content-wrap .dataSave .viewText table td div.editorWrap { position:relative; width:482px; }
+.body .content-wrap .dataSave .viewText table td div.editorWrap .editor { position:relative; height:180px; }
+/*.body .content-wrap .dataSave .viewText table td div { border: 1px solid #dbbea2; width:460px; height:200px; padding:10px; background-color:#e5e9ed; }*/
+/*.body .content-wrap .dataSave .viewText table td textarea { border: 1px solid #ccc; width:460px; height:200px; padding:10px; }*/
+.body .content-wrap .dataSave .viewBtn { width:100%; text-align:center; color:#4c3000; margin:20px; }
+.body .content-wrap .dataSave .viewText .attachFile { width:480px; }
+.body .content-wrap .dataSave .viewText .attachFile .attachBtn { float:right; margin:11px 0px 2px 0px; }
+.body .content-wrap .dataSave .viewText .attachFile .noScrollArea { }
+.body .content-wrap .dataSave .viewText .attachFile .scrollArea { overflow-y:auto; max-height:256px; border-bottom:1px solid #dbbea2; border-right:1px solid #dbbea2; }
+.body .content-wrap .dataSave .viewText .attachFile table {}
+.body .content-wrap .dataSave .viewText .attachFile table.title { margin-bottom:0px; border-bottom:0px; }
+.body .content-wrap .dataSave .viewText .attachFile table.data { margin-bottom:0px; border-right:0px; border-bottom:0px; }
+.body .content-wrap .dataSave .viewText .attachFile table input { margin:0px; }
+.body .content-wrap .dataSave .viewText .attachFile table th { height:20px; padding: 5px 0px 5px 20px; background-color: #f5f5f5; }
+.body .content-wrap .dataSave .viewText .attachFile table td { height:20px; padding: 5px 0px 5px 20px; }
+.body .content-wrap .dataSave .viewText .attachFile table td.noFile { padding: 5px 0px 5px 20px; background-color: #ffffff; }
+.body .content-wrap .dataSave .viewText .attachFile table td a { text-decoration:none; }
+.body .content-wrap .dataSave .viewText .attachFile table td a:hover { color:#005580; text-decoration:underline; }
+.body .content-wrap .dataSave .viewText .attachFile table th.name { text-align:left; width:auto; padding: 5px 0px 5px 20px !important; }
+.body .content-wrap .dataSave .viewText .attachFile table td.name { text-align:left; width:auto; padding: 10px 0px 5px 20px !important; }
+.body .content-wrap .dataSave .viewText .attachFile table th.size { text-align:center; width:120px; }
+.body .content-wrap .dataSave .viewText .attachFile table td.size { text-align:right; width:120px; padding: 10px 10px 5px 0px; }
+.body .content-wrap .dataSave .viewText .attachFile table th.delete { text-align:center; width:100px; }
+.body .content-wrap .dataSave .viewText .attachFile table td.delete { text-align:center; width:100px; }
+
+
+/**********middle**********/
+
+
+/**********footer**********/
+.footer { position: relative; height:32px; }
+.footer .footer-wrap { padding:7px 0px 0px 15px }
+.footer .footer-wrap .copyright { font-size:13px; }
+/**********footer**********/
+
+
+/**********other**********/
+/*WebEditor*/
+.redactor {}
+.redactor .editorWrap {  }
+.redactor .editorWrap .editor { width:678px; height:480px; }
+.redactor .well ul li { list-style:none; font-size:14px; line-height:26px; }
+.redactor .well ul li span { position:relative; top: 3px; background: url(../images/icon/browser-icons.png) no-repeat; width:16px; height: 16px; display: inline-block; line-height: 16px; }
+.redactor .well ul li span.ico_browser_chrome { background-position: 0 0 !important; }
+.redactor .well ul li span.ico_browser_firefox { background-position: 0 -16px !important; }
+.redactor .well ul li span.ico_browser_safari { background-position: 0 -32px !important; }
+.redactor .well ul li span.ico_browser_opera { background-position: 0 -48px !important; }
+.redactor .well ul li span.ico_browser_ie { background-position: 0 -64px !important; }
+
+
+/**********other**********/
